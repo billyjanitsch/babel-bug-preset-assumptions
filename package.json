@@ -1,0 +1,16 @@
+{
+  "name": "babel-playground",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel input.js -o output.js"
+  },
+  "keywords": [],
+  "author": "Billy Janitsch <billyjanitsch@gmail.com> (https://billyjanitsch.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-env": "^7.14.2"
+  }
+}
