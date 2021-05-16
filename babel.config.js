@@ -1,4 +1,3 @@
 module.exports = {
-  presets: ["@babel/preset-env"],
-  assumptions: { enumerableModuleMeta: true },
+  presets: ["module:./preset.js"],
 };
